@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Person Hinzufügen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a class="back-link" href="index.html">← Back</a>
+    <h1>Neuen Kunden Hinzufügen</h1>
+
+    <div class="form-group">
+      <label for="name">Vorname</label>
+      <input type="text" id="name" placeholder="Max" />
+    </div>
+    <div class="form-group">
+      <label for="lastname">Nachname</label>
+      <input type="text" id="lastname" placeholder="Mustermann" />
+    </div>
+    <div class="form-group">
+      <label for="street">Addresse</label>
+      <input type="text" id="street" placeholder="Hauptstraße 42" />
+    </div>
+    <div class="form-group">
+      <label for="postalCode">PLZ</label>
+      <input type="text" id="postalCode" placeholder="10117" />
+    </div>
+    <div class="form-group">
+      <label for="city">Stadt</label>
+      <input type="text" id="city" placeholder="Berlin" />
+    </div>
+    <div class="form-group">
+      <label for="country">Land</label>
+      <input type="text" id="country" placeholder="Deutschland" />
+    </div>
+
+    <button id="submitBtn" onclick="doAddPerson()">Person Hinzufügen</button>
+
+    <div id="feedback" style="display:none; margin-top:16px;"></div>
+  </div>
+
+  <script src="add-person.js"></script>
+</body>
+</html>

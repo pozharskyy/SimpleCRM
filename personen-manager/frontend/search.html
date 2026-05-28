@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suche</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a class="back-link" href="index.html">← Zurück</a>
+    <h1>Suche</h1>
+
+    <div class="form-group">
+      <label for="query">Suche</label>
+      <div class="search-row">
+        <input type="search" id="query" placeholder="Suchkriterien eingeben..." />
+        <button id="searchBtn" onclick="doSearch()">Suche</button>
+      </div>
+    </div>
+
+    <div id="feedback" style="display:none; margin-top:16px;"></div>
+    <div id="results" style="margin-top:24px;"></div>
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>
