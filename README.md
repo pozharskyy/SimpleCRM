@@ -24,8 +24,7 @@ Running locally on Docker, served on Tomcat/Nginx, implemented using Java and my
 │   └── schema.sql     # Auto-applied on first DB start
 ├── nginx/
 │   └── nginx.conf     # Reverse proxy config
-├── docker-compose.yml
-└── Jenkinsfile
+└── docker-compose.yml
 ```
 
 # Prerequesites
