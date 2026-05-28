@@ -13,7 +13,6 @@ Running locally on Docker, served on Tomcat/Nginx, implemented using Java and my
 | Backend  | Java 21 · Jakarta Servlet · Tomcat 11 |
 | Database | MySQL 8.4                           |
 | Build    | Maven 3.9 · Docker Compose          |
-| CI/CD    | Jenkins                             |
 
 ## Project Structure
 
